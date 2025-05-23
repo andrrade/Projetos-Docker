@@ -150,3 +150,26 @@ for event in client.events(decode=True, filters={"event": "die"}):
 ---
 
 ✅ **Pronto!** Agora, sempre que um container for finalizado, você receberá automaticamente uma notificação via **Discord**.
+![image](https://github.com/user-attachments/assets/284b3822-cf52-4d5f-8d7a-2770e8e1bceb)
+![image](https://github.com/user-attachments/assets/3bbf2f8f-979d-4ace-a008-84347403832a)
+![image](https://github.com/user-attachments/assets/fbd4f6d2-4321-43ab-b22d-8703a3a98f6d)
+![image](https://github.com/user-attachments/assets/ff75502d-44d0-4365-ac15-ca851b8e8797)
+![image](https://github.com/user-attachments/assets/f18194d3-de7e-4025-a084-7c15cac7ae2d)
+![image](https://github.com/user-attachments/assets/16ae830c-6b24-4a12-a8db-640688628b10)
+![image](https://github.com/user-attachments/assets/a4aeff2c-caa8-41b4-92a1-88d2778ee5db)
+![image](https://github.com/user-attachments/assets/972831b5-92f6-4f60-803a-7ef51ecd338b)
+![image](https://github.com/user-attachments/assets/d75abe35-7e44-4245-9b5f-f9ae8a16caf8)
+![image](https://github.com/user-attachments/assets/a78f290a-73d0-4be9-b6fa-b228e7bb32af)
+![image](https://github.com/user-attachments/assets/b08e57bd-bf42-49f1-a31c-5576298e0c1e)
+![image](https://github.com/user-attachments/assets/80875f33-80e1-4575-8a9c-47d0a5605699)
+![image](https://github.com/user-attachments/assets/3a32df93-4e0c-4188-b3bd-ed0ce6b2365d)
+
+---
+![image](https://github.com/user-attachments/assets/43e9fe4d-fde5-4f9e-8a7f-be2abd8b908d)
+![image](https://github.com/user-attachments/assets/4f6e7101-7631-4a06-98f1-0fcded0057e8)
+![image](https://github.com/user-attachments/assets/132b6fc2-bdcf-4450-82d7-2f63f579a410)
+![image](https://github.com/user-attachments/assets/3b8e64de-6f9b-4bd9-a37d-d2b905ba6596)
+![image](https://github.com/user-attachments/assets/c74bc105-57fa-4f71-be96-e7fe522ed84f)
+![image](https://github.com/user-attachments/assets/6f3dfc58-d55f-4981-9c61-25233d7038f6)
+
+
