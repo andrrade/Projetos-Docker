@@ -1,3 +1,6 @@
+> [!WARNING]
+> Projetos em andamento
+
 <p align="center">
   <img src="./assets/logo.png" alt="Logo dos Exercícios" width="400">
 </p>
