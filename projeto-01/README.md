@@ -6,6 +6,9 @@ Este projeto faz parte dos meus estudos no [curso do Mateus Müller](https://www
 
 ## `1` Editar o arquivo `docker.service`
 
+> [!IMPORTANT]
+> Essa etapa deve ser realizada no terminal da sua `máquina`
+
 ### ➡️ Por que?
 
 Para permitir que a API do Docker seja acessada via **socket TCP**, facilitando integrações externas, como monitorar eventos de containers a partir de um script Python.
@@ -86,6 +89,9 @@ sudo systemctl restart docker
 
 ## `2` Inicializar o ambiente Python
 
+> [!IMPORTANT]
+> Essa etapa deve ser realizada no seu terminal do `VSCode`
+
 Crie e ative o ambiente virtual:
 
 ```bash
@@ -103,6 +109,9 @@ source .venv/bin/activate.fish
 ---
 
 ## `3` Instalar dependência e criar script
+
+> [!IMPORTANT]
+> Essa etapa de `Instalar o pacote docker`, deve ser realizada no seu terminal do `VSCode`
 
 ### ➡️ Instalar o pacote `docker`:
 
@@ -141,9 +150,9 @@ for event in client.events(decode=True, filters={"event": "die"}):
 
 ## `4` Criar o Webhook no Discord
 
-➡️ No canal desejado:
+➡️ Abra o seu discord:
 
-### Webhook no Discord (parte 1)
+### `(parte 1):` Webhook no Discord 
 
 1. No canto inferior esquerdo, clique no `+` para Adicionar um servidor
 
@@ -184,34 +193,37 @@ for event in client.events(decode=True, filters={"event": "die"}):
 
 4. Clique em `Próximo`
 
+![image](https://github.com/user-attachments/assets/16ae830c-6b24-4a12-a8db-640688628b10)
+
 ### Webhook no Discord (parte 7)
 
 1. Clique em `Pular`
-![image](https://github.com/user-attachments/assets/16ae830c-6b24-4a12-a8db-640688628b10)
+
+![image](https://github.com/user-attachments/assets/a4aeff2c-caa8-41b4-92a1-88d2778ee5db)
 
 ### Webhook no Discord (parte 8)
 
 1. No canal criado, clique em `...` para abrir as opções de canal
 
-![image](https://github.com/user-attachments/assets/a4aeff2c-caa8-41b4-92a1-88d2778ee5db)
+![image](https://github.com/user-attachments/assets/972831b5-92f6-4f60-803a-7ef51ecd338b)
 
 ### Webhook no Discord (parte 9)
 
 1. Clique em `Editar canal`
 
-![image](https://github.com/user-attachments/assets/972831b5-92f6-4f60-803a-7ef51ecd338b)
+![image](https://github.com/user-attachments/assets/d75abe35-7e44-4245-9b5f-f9ae8a16caf8)
 
 ### Webhook no Discord (parte 10)
 
 1. Clique em `Integrações`
 
-![image](https://github.com/user-attachments/assets/d75abe35-7e44-4245-9b5f-f9ae8a16caf8)
+![image](https://github.com/user-attachments/assets/a78f290a-73d0-4be9-b6fa-b228e7bb32af)
 
 ### Webhook no Discord (parte 11)
 
 1. Clique em `Criar webhook`
 
-![image](https://github.com/user-attachments/assets/a78f290a-73d0-4be9-b6fa-b228e7bb32af)
+![image](https://github.com/user-attachments/assets/b08e57bd-bf42-49f1-a31c-5576298e0c1e)
 
 ### Webhook no Discord (parte 12)
 
@@ -221,7 +233,7 @@ for event in client.events(decode=True, filters={"event": "die"}):
 
 1. Clique no `Webhook`
 
-![image](https://github.com/user-attachments/assets/b08e57bd-bf42-49f1-a31c-5576298e0c1e)
+![image](https://github.com/user-attachments/assets/80875f33-80e1-4575-8a9c-47d0a5605699)
 
 ### Webhook no Discord (parte 13)
 
@@ -237,14 +249,10 @@ webhook_url = "<coloque a URL do seu webhook do Discord aqui>"
 
 3. Clique em `Salvar alterações`
 
-![image](https://github.com/user-attachments/assets/80875f33-80e1-4575-8a9c-47d0a5605699)
+![image](https://github.com/user-attachments/assets/3a32df93-4e0c-4188-b3bd-ed0ce6b2365d)
 
 ## `5` Testando 
 
-
-![image](https://github.com/user-attachments/assets/3a32df93-4e0c-4188-b3bd-ed0ce6b2365d)
-
----
 ![image](https://github.com/user-attachments/assets/43e9fe4d-fde5-4f9e-8a7f-be2abd8b908d)
 ![image](https://github.com/user-attachments/assets/4f6e7101-7631-4a06-98f1-0fcded0057e8)
 ![image](https://github.com/user-attachments/assets/132b6fc2-bdcf-4450-82d7-2f63f579a410)
