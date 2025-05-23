@@ -228,7 +228,7 @@ for event in client.events(decode=True, filters={"event": "die"}):
 ### `(parte 12):` Webhook no Discord 
 
 > [!NOTE]
-> Você provavelmente já terá um webhook criá-lo, vai da sua preferência usá-lo ou criar outro.
+> Você provavelmente já terá um webhook criado, vai da sua preferência usá-lo ou criar outro.
 > Eu usei o padrão mesmo.
 
 1. Clique no `Webhook`
@@ -251,14 +251,87 @@ webhook_url = "<coloque a URL do seu webhook do Discord aqui>"
 
 ![image](https://github.com/user-attachments/assets/3a32df93-4e0c-4188-b3bd-ed0ce6b2365d)
 
-## `5` Testando 
+## `5` Testando
+
+### `(parte 1):` Testes
+
+> [!IMPORTANT]
+> Essa etapa deve ser realizada no seu terminal do `VSCode`
+
+> [!NOTE]
+> Esses são os passos da etapa 1, se você fez tudo certo e já está no ambiente `venv` nem precisa fazer isso.
+
+1. Verifique eue você está na pasta correta
+
+```sh
+cd projeto-01/
+```
+
+2. Verifique se o ambiente `venv` está ativado
+
+> [!NOTE]
+> Usei `.fish` porque o meu terminal é o fish
+
+```sh
+.venv/bin/activate.fish
+```
 
 ![image](https://github.com/user-attachments/assets/43e9fe4d-fde5-4f9e-8a7f-be2abd8b908d)
+
+### `(parte 2):` Testes
+
+> [!IMPORTANT]
+> Essa etapa deve ser realizada no terminal da sua `máquina`
+
+1. Execute o seguinte comando para criar um `container nginx`:
+
 ![image](https://github.com/user-attachments/assets/4f6e7101-7631-4a06-98f1-0fcded0057e8)
+
+```sh
+docker run -d nginx
+```
+
+### `(parte 3):` Testes
+
+1. Dê um `docker ps` para ver o seu container criado e copie o `ID` dele:
+
+```sh
+docker ps
+```
+
 ![image](https://github.com/user-attachments/assets/132b6fc2-bdcf-4450-82d7-2f63f579a410)
+
+### `(parte 4):` Testes
+
+1. Dê um `docker stop <ID>` para parar o container criado
+
+```sh
+docker stop <ID>
+```
+
 ![image](https://github.com/user-attachments/assets/3b8e64de-6f9b-4bd9-a37d-d2b905ba6596)
+
+### `(parte 5):` Testes
+
+> [!IMPORTANT]
+> Essa etapa deve ser realizada no seu terminal do `VSCode`
+
+1. Execute o seguinte comando:
+
+```sh
+python events.py
+```
+
 ![image](https://github.com/user-attachments/assets/c74bc105-57fa-4f71-be96-e7fe522ed84f)
+
+Ele mostrará a mensagem com os dados do container que foi parado, informando também a data e hora:
+
 ![image](https://github.com/user-attachments/assets/6f3dfc58-d55f-4981-9c61-25233d7038f6)
 
-✅ **Pronto!** Agora, sempre que um container for finalizado, você receberá automaticamente uma notificação via **Discord**.
+### `(parte 6):` Testes
 
+Ao abrir o seu canal criado no discord, você também terá sido notificado.
+
+---
+
+✅ **Pronto!** Agora, sempre que um container for finalizado, você receberá automaticamente uma notificação via **Discord**.
