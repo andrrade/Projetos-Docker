@@ -71,6 +71,3 @@ WantedBy=multi-user.target
 
 # 4
 Webhook no discord
-
-link
-https://www.udemy.com/course/docker-basico-ao-avancado/
