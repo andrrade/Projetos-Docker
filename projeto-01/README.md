@@ -285,23 +285,19 @@ cd projeto-01/
 
 1. Execute o seguinte comando para criar um `container nginx`:
 
-![image](https://github.com/user-attachments/assets/4f6e7101-7631-4a06-98f1-0fcded0057e8)
-
 ```sh
 docker run -d nginx
 ```
 
-### `(parte 3):` Testes
-
-1. Dê um `docker ps` para ver o seu container criado e copie o `ID` dele:
+2. Dê um `docker ps` para ver o seu container criado e copie o `ID` dele:
 
 ```sh
 docker ps
 ```
 
-![image](https://github.com/user-attachments/assets/132b6fc2-bdcf-4450-82d7-2f63f579a410)
+![image](https://github.com/user-attachments/assets/4f6e7101-7631-4a06-98f1-0fcded0057e8)
 
-### `(parte 4):` Testes
+### `(parte 3):` Testes
 
 1. Dê um `docker stop <ID>` para parar o container criado
 
@@ -309,9 +305,9 @@ docker ps
 docker stop <ID>
 ```
 
-![image](https://github.com/user-attachments/assets/3b8e64de-6f9b-4bd9-a37d-d2b905ba6596)
+![image](https://github.com/user-attachments/assets/132b6fc2-bdcf-4450-82d7-2f63f579a410)
 
-### `(parte 5):` Testes
+### `(parte 4):` Testes
 
 > [!IMPORTANT]
 > Essa etapa deve ser realizada no seu terminal do `VSCode`
@@ -322,15 +318,17 @@ docker stop <ID>
 python events.py
 ```
 
-![image](https://github.com/user-attachments/assets/c74bc105-57fa-4f71-be96-e7fe522ed84f)
+![image](https://github.com/user-attachments/assets/3b8e64de-6f9b-4bd9-a37d-d2b905ba6596)
 
 Ele mostrará a mensagem com os dados do container que foi parado, informando também a data e hora:
 
-![image](https://github.com/user-attachments/assets/6f3dfc58-d55f-4981-9c61-25233d7038f6)
+![image](https://github.com/user-attachments/assets/c74bc105-57fa-4f71-be96-e7fe522ed84f)
 
-### `(parte 6):` Testes
+### `(parte 5):` Testes
 
 Ao abrir o seu canal criado no discord, você também terá sido notificado.
+
+![image](https://github.com/user-attachments/assets/6f3dfc58-d55f-4981-9c61-25233d7038f6)
 
 ---
 
