@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0499ac86-3b91-420a-9a89-410a801a2303" alt="Logo dos Exercícios" width="400">
+</p>
+<br>
+
 # Explicação do Projeto 1
 
 Este projeto faz parte dos meus estudos no [curso do Mateus Müller](https://www.udemy.com/course/docker-basico-ao-avancado/), com o objetivo de aprender ainda mais sobre Docker e automação. A ideia principal é monitorar automaticamente quando um container é finalizado e, a partir disso, enviar uma notificação para um canal no Discord usando um webhook. Além disso, registrei todo o processo e os testes com várias imagens no README, para facilitar a visualização e reforçar o aprendizado. Esse projeto me ajudou a entender na prática como integrar o Docker com outras ferramentas e como automatizar tarefas de administração de containers.
