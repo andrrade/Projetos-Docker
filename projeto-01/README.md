@@ -161,32 +161,32 @@ for event in client.events(decode=True, filters={"event": "die"}):
 
 1. No canto inferior esquerdo, clique no `+` para Adicionar um servidor
 
-![image](./assets/WebhookDiscord/p01)
+![image](./assets/WebhookDiscord/p01.png)
 
 ### `(parte 2):` Webhook no Discord 
 
 1. Clique em `Criar o meu`
 
-![image](./assets/WebhookDiscord/p02)
+![image](./assets/WebhookDiscord/p02.png)
 
 ### `(parte 3):` Webhook no Discord 
 
 1. Clique em `Para meus amigos e eu`
 
-![image](./assets/WebhookDiscord/p03)
+![image](./assets/WebhookDiscord/p03.png)
 
 ### `(parte 4):` Webhook no Discord 
 
 1. Dê um nome ao servidor
 2. Clique em `Criar`
 
-![image](./assets/WebhookDiscord/p04)
+![image](./assets/WebhookDiscord/p04.png)
 
 ### `(parte 5):` Webhook no Discord 
 
 1. Em canais de texto, clique no `+` para criar canal
 
-![image](./assets/WebhookDiscord/p05)
+![image](./assets/WebhookDiscord/p05.png)
 
 ### `(parte 6):` Webhook no Discord 
 
@@ -198,37 +198,37 @@ for event in client.events(decode=True, filters={"event": "die"}):
 
 4. Clique em `Próximo`
 
-![image](./assets/WebhookDiscord/p06)
+![image](./assets/WebhookDiscord/p06.png)
 
 ### `(parte 7):` Webhook no Discord 
 
 1. Clique em `Pular`
 
-![image](./assets/WebhookDiscord/p07)
+![image](./assets/WebhookDiscord/p07.png)
 
 ### `(parte 8):` Webhook no Discord 
 
 1. No canal criado, clique em `...` para abrir as opções de canal
 
-![image](./assets/WebhookDiscord/p08)
+![image](./assets/WebhookDiscord/p08.png)
 
 ### `(parte 9):` Webhook no Discord 
 
 1. Clique em `Editar canal`
 
-![image](./assets/WebhookDiscord/p09)
+![image](./assets/WebhookDiscord/p09.png)
 
 ### `(parte 10):` Webhook no Discord 
 
 1. Clique em `Integrações`
 
-![image](./assets/WebhookDiscord/p10)
+![image](./assets/WebhookDiscord/p10.png)
 
 ### `(parte 11):` Webhook no Discord 
 
 1. Clique em `Criar webhook`
 
-![image](./assets/WebhookDiscord/p11)
+![image](./assets/WebhookDiscord/p11.png)
 
 ### `(parte 12):` Webhook no Discord 
 
@@ -238,7 +238,7 @@ for event in client.events(decode=True, filters={"event": "die"}):
 
 1. Clique no `Webhook`
 
-![image](./assets/WebhookDiscord/p12)
+![image](./assets/WebhookDiscord/p12.png)
 
 ### `(parte 13):` Webhook no Discord 
 
@@ -254,7 +254,7 @@ webhook_url = "<coloque a URL do seu webhook do Discord aqui>"
 
 3. Clique em `Salvar alterações`
 
-![image](./assets/WebhookDiscord/p13)
+![image](./assets/WebhookDiscord/p13.png)
 
 ## `5` Testando
 
