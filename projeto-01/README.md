@@ -1,3 +1,16 @@
+# 1
+inicializar o ambiente
+python3 --version
+python3 -m venv .venv
+source .venv/bin/activate
+no meu caso:
+source .venv/bin/activate.fish
+# 2
+pip install docker
+
+criar arquivo events.py
+
+# 3
 sudo nano /usr/lib/systemd/system/docker.service
 
 linha alterada
@@ -55,3 +68,6 @@ OOMScoreAdjust=-500
 [Install]
 WantedBy=multi-user.target
 ```
+
+# 4
+Webhook no discord
