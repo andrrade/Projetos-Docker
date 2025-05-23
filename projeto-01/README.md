@@ -158,32 +158,32 @@ for event in client.events(decode=True, filters={"event": "die"}):
 
 ![image](https://github.com/user-attachments/assets/284b3822-cf52-4d5f-8d7a-2770e8e1bceb)
 
-### Webhook no Discord (parte 2)
+### `(parte 2):` Webhook no Discord 
 
 1. Clique em `Criar o meu`
 
 ![image](https://github.com/user-attachments/assets/3bbf2f8f-979d-4ace-a008-84347403832a)
 
-### Webhook no Discord (parte 3)
+### `(parte 3):` Webhook no Discord 
 
 1. Clique em `Para meus amigos e eu`
 
 ![image](https://github.com/user-attachments/assets/fbd4f6d2-4321-43ab-b22d-8703a3a98f6d)
 
-### Webhook no Discord (parte 4)
+### `(parte 4):` Webhook no Discord 
 
 1. Dê um nome ao servidor
 2. Clique em `Criar`
 
 ![image](https://github.com/user-attachments/assets/ff75502d-44d0-4365-ac15-ca851b8e8797)
 
-### Webhook no Discord (parte 5)
+### `(parte 5):` Webhook no Discord 
 
 1. Em canais de texto, clique no `+` para criar canal
 
 ![image](https://github.com/user-attachments/assets/f18194d3-de7e-4025-a084-7c15cac7ae2d)
 
-### Webhook no Discord (parte 6)
+### `(parte 6):` Webhook no Discord 
 
 1. Selecione o tipo como `Texto`
 2. Dê um nome para o canal
@@ -195,37 +195,37 @@ for event in client.events(decode=True, filters={"event": "die"}):
 
 ![image](https://github.com/user-attachments/assets/16ae830c-6b24-4a12-a8db-640688628b10)
 
-### Webhook no Discord (parte 7)
+### `(parte 7):` Webhook no Discord 
 
 1. Clique em `Pular`
 
 ![image](https://github.com/user-attachments/assets/a4aeff2c-caa8-41b4-92a1-88d2778ee5db)
 
-### Webhook no Discord (parte 8)
+### `(parte 8):` Webhook no Discord 
 
 1. No canal criado, clique em `...` para abrir as opções de canal
 
 ![image](https://github.com/user-attachments/assets/972831b5-92f6-4f60-803a-7ef51ecd338b)
 
-### Webhook no Discord (parte 9)
+### `(parte 9):` Webhook no Discord 
 
 1. Clique em `Editar canal`
 
 ![image](https://github.com/user-attachments/assets/d75abe35-7e44-4245-9b5f-f9ae8a16caf8)
 
-### Webhook no Discord (parte 10)
+### `(parte 10):` Webhook no Discord 
 
 1. Clique em `Integrações`
 
 ![image](https://github.com/user-attachments/assets/a78f290a-73d0-4be9-b6fa-b228e7bb32af)
 
-### Webhook no Discord (parte 11)
+### `(parte 11):` Webhook no Discord 
 
 1. Clique em `Criar webhook`
 
 ![image](https://github.com/user-attachments/assets/b08e57bd-bf42-49f1-a31c-5576298e0c1e)
 
-### Webhook no Discord (parte 12)
+### `(parte 12):` Webhook no Discord 
 
 > [!NOTE]
 > Você provavelmente já terá um webhook criá-lo, vai da sua preferência usá-lo ou criar outro.
@@ -235,7 +235,7 @@ for event in client.events(decode=True, filters={"event": "die"}):
 
 ![image](https://github.com/user-attachments/assets/80875f33-80e1-4575-8a9c-47d0a5605699)
 
-### Webhook no Discord (parte 13)
+### `(parte 13):` Webhook no Discord 
 
 1. Dê o nome de sua preferência
 2. Copie a `URL`
