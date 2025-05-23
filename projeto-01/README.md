@@ -161,32 +161,32 @@ for event in client.events(decode=True, filters={"event": "die"}):
 
 1. No canto inferior esquerdo, clique no `+` para Adicionar um servidor
 
-![image](https://github.com/user-attachments/assets/284b3822-cf52-4d5f-8d7a-2770e8e1bceb)
+![image](./assets/WebhookDiscord/p01)
 
 ### `(parte 2):` Webhook no Discord 
 
 1. Clique em `Criar o meu`
 
-![image](https://github.com/user-attachments/assets/3bbf2f8f-979d-4ace-a008-84347403832a)
+![image](./assets/WebhookDiscord/p02)
 
 ### `(parte 3):` Webhook no Discord 
 
 1. Clique em `Para meus amigos e eu`
 
-![image](https://github.com/user-attachments/assets/fbd4f6d2-4321-43ab-b22d-8703a3a98f6d)
+![image](./assets/WebhookDiscord/p03)
 
 ### `(parte 4):` Webhook no Discord 
 
 1. Dê um nome ao servidor
 2. Clique em `Criar`
 
-![image](https://github.com/user-attachments/assets/ff75502d-44d0-4365-ac15-ca851b8e8797)
+![image](./assets/WebhookDiscord/p04)
 
 ### `(parte 5):` Webhook no Discord 
 
 1. Em canais de texto, clique no `+` para criar canal
 
-![image](https://github.com/user-attachments/assets/f18194d3-de7e-4025-a084-7c15cac7ae2d)
+![image](./assets/WebhookDiscord/p05)
 
 ### `(parte 6):` Webhook no Discord 
 
@@ -198,37 +198,37 @@ for event in client.events(decode=True, filters={"event": "die"}):
 
 4. Clique em `Próximo`
 
-![image](https://github.com/user-attachments/assets/16ae830c-6b24-4a12-a8db-640688628b10)
+![image](./assets/WebhookDiscord/p06)
 
 ### `(parte 7):` Webhook no Discord 
 
 1. Clique em `Pular`
 
-![image](https://github.com/user-attachments/assets/a4aeff2c-caa8-41b4-92a1-88d2778ee5db)
+![image](./assets/WebhookDiscord/p07)
 
 ### `(parte 8):` Webhook no Discord 
 
 1. No canal criado, clique em `...` para abrir as opções de canal
 
-![image](https://github.com/user-attachments/assets/972831b5-92f6-4f60-803a-7ef51ecd338b)
+![image](./assets/WebhookDiscord/p08)
 
 ### `(parte 9):` Webhook no Discord 
 
 1. Clique em `Editar canal`
 
-![image](https://github.com/user-attachments/assets/d75abe35-7e44-4245-9b5f-f9ae8a16caf8)
+![image](./assets/WebhookDiscord/p09)
 
 ### `(parte 10):` Webhook no Discord 
 
 1. Clique em `Integrações`
 
-![image](https://github.com/user-attachments/assets/a78f290a-73d0-4be9-b6fa-b228e7bb32af)
+![image](./assets/WebhookDiscord/p10)
 
 ### `(parte 11):` Webhook no Discord 
 
 1. Clique em `Criar webhook`
 
-![image](https://github.com/user-attachments/assets/b08e57bd-bf42-49f1-a31c-5576298e0c1e)
+![image](./assets/WebhookDiscord/p11)
 
 ### `(parte 12):` Webhook no Discord 
 
@@ -238,7 +238,7 @@ for event in client.events(decode=True, filters={"event": "die"}):
 
 1. Clique no `Webhook`
 
-![image](https://github.com/user-attachments/assets/80875f33-80e1-4575-8a9c-47d0a5605699)
+![image](./assets/WebhookDiscord/p12)
 
 ### `(parte 13):` Webhook no Discord 
 
@@ -254,7 +254,7 @@ webhook_url = "<coloque a URL do seu webhook do Discord aqui>"
 
 3. Clique em `Salvar alterações`
 
-![image](https://github.com/user-attachments/assets/3a32df93-4e0c-4188-b3bd-ed0ce6b2365d)
+![image](./assets/WebhookDiscord/p13)
 
 ## `5` Testando
 
@@ -281,7 +281,7 @@ cd projeto-01/
 .venv/bin/activate.fish
 ```
 
-![image](https://github.com/user-attachments/assets/43e9fe4d-fde5-4f9e-8a7f-be2abd8b908d)
+![image](./assets/Testes/p01.png)
 
 ### `(parte 2):` Testes
 
@@ -300,7 +300,7 @@ docker run -d nginx
 docker ps
 ```
 
-![image](https://github.com/user-attachments/assets/4f6e7101-7631-4a06-98f1-0fcded0057e8)
+![image](./assets/Testes/p02.png)
 
 ### `(parte 3):` Testes
 
@@ -310,7 +310,7 @@ docker ps
 docker stop <ID>
 ```
 
-![image](https://github.com/user-attachments/assets/132b6fc2-bdcf-4450-82d7-2f63f579a410)
+![image](./assets/Testes/p03.png)
 
 ### `(parte 4):` Testes
 
@@ -323,17 +323,17 @@ docker stop <ID>
 python events.py
 ```
 
-![image](https://github.com/user-attachments/assets/3b8e64de-6f9b-4bd9-a37d-d2b905ba6596)
+![image](./assets/Testes/p04-1.png)
 
 Ele mostrará a mensagem com os dados do container que foi parado, informando também a data e hora:
 
-![image](https://github.com/user-attachments/assets/c74bc105-57fa-4f71-be96-e7fe522ed84f)
+![image](./assets/Testes/p04-2.png)
 
 ### `(parte 5):` Testes
 
 Ao abrir o seu canal criado no discord, você também terá sido notificado.
 
-![image](https://github.com/user-attachments/assets/6f3dfc58-d55f-4981-9c61-25233d7038f6)
+![image](./assets/Testes/p05.png)
 
 ---
 
